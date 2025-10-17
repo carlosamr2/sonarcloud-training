@@ -6,7 +6,7 @@
     "build": "next build",
     "dev": "NODE_OPTIONS='--inspect' next dev",
     "start": "next start",
-    "test": "jest",
+    "test": "jest --coverage",
     "test:e2e": "yarn build && start-server-and-test 'yarn start' tcp:3000 'yarn test:e2e:run'",
     "test:e2e:open": "cypress open",
     "test:e2e:run": "cypress run"
